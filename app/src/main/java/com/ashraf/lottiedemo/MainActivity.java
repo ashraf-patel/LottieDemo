@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         animationView = (LottieAnimationView) findViewById(R.id.animation_view);
-
+        animationView.setImageAssetsFolder("image/");
         Button btn = (Button)findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
